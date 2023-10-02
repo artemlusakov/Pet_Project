@@ -1,0 +1,84 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 5 ;
+    background: rgba(0,0,0,0.9);
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+
+.Logo{
+    padding-left: 15px;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+ul a {
+    color: white;
+    font-family: SansSerif;
+    padding: 30px 30px 27px 30px;
+    margin-left: 5px;
+    transform: rotateX(0);
+    transition: 0.5s;
+}
+
+ul a:hover{
+    transform: rotateX(1);
+    border-bottom: 3px solid darkred;
+}
+
+.NavigationButton{
+    display: flex;
+    align-items: center;
+}
+
+.NavigationButtonSelect{
+    display: flex;
+    align-items: center;
+
+}
+
+.NavigationButtonSelect select{
+    font-size: 18px;
+    position: relative;
+    border: none;
+    background: none;
+    color: white;
+    padding: 30px 30px 27px 30px;
+}
+
+.NavigationButtonSelect option{
+    background: #212121;
+    border: none;
+    height: 70px;
+}
+
+.NavigationButton button{
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(90deg, rgba(196, 16, 16, 0.7) 0%, rgba(234, 6, 6, 0.7) 50%, rgba(120, 5, 5, 0.7) 100%);
+    cursor: pointer;
+    color: white;
+
+}
+
+.NavigationButton button:hover{
+    background: linear-gradient(90deg, rgba(196, 16, 16, 0.5) 0%, rgba(234, 6, 6, 0.5) 50%, rgba(120, 5, 5, 0.5) 100%);
+}
+
+.SelectNav{
+    background: #212121;
+    border: none;
+
+}

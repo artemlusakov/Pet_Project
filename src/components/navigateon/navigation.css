@@ -4,7 +4,7 @@ nav{
     align-items: center;
     text-align: center;
     position: fixed;
-    z-index: 5 ;
+    z-index: 10 ;
     background: rgba(0,0,0,0.9);
     height: 80px;
     width: 100%;
@@ -82,3 +82,63 @@ ul a:hover{
     border: none;
 
 }
+
+.languish__control{
+    height: 80px !important;
+    width: 150px!important;
+    background: rgba(0,0,0,0.9) !important;
+    color: white !important;
+    border: none !important;
+
+
+    font-size: 18px !important;
+    font-family: SansSerif;
+}
+
+.languish__control--is-focused{
+    border: none!important;
+    outline: none!important;
+}
+
+
+
+.NavigationButton{
+    outline: none !important;
+}
+
+.languish__container {
+    outline: none !important;
+}
+
+.languish__menu{
+    background: rgba(0,0,0,0.9) !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.languish__indicators{
+
+}
+
+.languish__single-value{
+    color: white !important;
+}
+
+.languish__indicator-separator{
+    background: none !important;
+}
+
+.languish__value-container{
+
+    height: 100% !important;
+}
+
+.languish__option{
+    font-size: 18px !important;
+    font-family: SansSerif;
+    color: white !important;
+    border: none !important;
+
+}
+

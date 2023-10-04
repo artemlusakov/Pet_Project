@@ -35,14 +35,13 @@ const Navigation = () => {
 
                 <div className="NavigationButton">
                     <div className="NavigationButtonSelect">
-                        <Select options={options }
+                        <Select options={options}
                                 className="SelectNav"
-                                classNamePrefix="English"
+                                classNamePrefix="languish"
                                 plaiseholder={options[0]}
-                                theme={theme =>({
-                                    ...theme,
-                                    
-                                })}
+                                isSearchable={false}
+
+
                         />
                     </div>
                     <button>PLAY NOW</button>

@@ -70,12 +70,15 @@
 }
 
 .Section2{
-    min-height: 250px;
-    color: white;
+    min-height: 170px;
     margin-top: 310px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    background-image:url('../../assets/img/BacgraundSection2.png') ;
+    background-position: center;
+    background-repeat:no-repeat ;
 }
 
 .Section2Box{
@@ -114,12 +117,12 @@
 }
 
 .Welcome{
-    min-height: 200px;
+    color: white;
+    min-height:150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(46,45,45);
-    background: linear-gradient(90deg, rgb(161, 160, 160) 0%, rgb(189, 187, 187) 50%, rgb(149, 144, 144) 100%);
+
 }
 
 .Welcome h1{
@@ -127,7 +130,166 @@
 }
 
 .WelcomeImg img{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
     margin-left: 15px;
     height: 50px;
     width: 50px;
+}
+
+.Section3Container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.KillerBox{
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 49%;
+    height: 1100px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(167,3,3,1) 100%);
+}
+
+.SurvivalBox{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 1100px;
+    width: 49%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(7,5,198,1) 100%);
+}
+
+.Section3ContainerImg{
+    background: #000;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.KillerBox{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 40px;
+}
+.KillerBoxText{
+    margin-right: 20px;
+}
+
+.SurvivalBox{
+    font-size: 40px;
+    color: #ffffff;
+    display: flex;
+}
+.SurvivalBoxText{
+    margin-left: 20px;
+}
+
+.Section3Box button{
+    font-weight: 900;
+    height: 60px;
+    width: 200px;
+    background: none;
+    background: rgba(56, 55, 55, 0.8);
+    border: white 2px solid;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Section3Box button:hover{
+    background: none;
+}
+
+.DLC{
+    position: relative;
+    margin-top: -770px;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    z-index: 3;
+    width: 100%;
+    height: 800px;
+}
+
+.DLC h1{
+    padding-top: 20px;
+    font-size: 60px;
+    color: white;
+}
+
+.DLCMainBox{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.DLCMainBox img{
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    height: 500px;
+    width: 400px;
+    box-shadow: 3px 1px 20px #666666;
+
+}
+
+.DLCMainBox img:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.KillerDLC img{
+    margin-right: 50px;
+}
+.SurvivalDLC img{
+    margin-left: 50px;
+}
+
+.DLCButton{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.DLCButton button{
+    height: 50px;
+    width: 200px;
+    background: darkred;
+    margin-top: 20px;
+    color: white;
+    border: none;
+
+}
+
+.Section4{
+    display: flex;
+
+    height: 600px;
+    background: #000000;
+    color: white;
+}
+
+.Section4 img{
+    width: 50%;
+    height: 100%;
+}
+
+.Section4Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

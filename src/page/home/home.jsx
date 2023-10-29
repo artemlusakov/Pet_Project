@@ -24,6 +24,7 @@ import ign from '../../assets/img/ign.png'
 import pc from '../../assets/img/PC_Gamer_old_logo.jpg'
 import gamestor from '../../assets/img/GameStop.svg.png'
 import bg from '../../assets/img/art1.jpg'
+import Slide from "../../components/slider/slider";
 
 const Home = () => {
     return (
@@ -122,16 +123,25 @@ const Home = () => {
 
                 <div className='Section4Content'>
                     <h1>LATEST RELEASE</h1>
-                    <h2>ALIEN</h2>
+                    <h3>ALIEN</h3>
                     <div className='Description'>
-                        <h1>Dead by Daylight: Alien includes :</h1>
+                        <h2>Dead by Daylight: Alien includes :</h2>
                         <ul>
                             <li>New Killer the Xenomorph</li>
                             <li>New Survivor Ellen Ripley</li>
                             <li>The Nostromo Wreckage Map is available for all players.</li>
                         </ul>
                     </div>
+
+                    <div className='Section4ContentButton'>
+                        <button>LEARN MORE</button>
+                        <button>WATCH TRAILER</button>
+                    </div>
                 </div>
+            </section>
+
+            <section className='Section5'>
+
             </section>
         </div>
     );

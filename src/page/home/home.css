@@ -208,7 +208,7 @@
 
 .DLC{
     position: relative;
-    margin-top: -770px;
+    margin-top: -800px;
     background: rgba(0,0,0,0.7);
     display: flex;
     align-items: center;
@@ -237,7 +237,7 @@
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
-    height: 500px;
+    height: 500px   ;
     width: 400px;
     box-shadow: 3px 1px 20px #666666;
 
@@ -277,7 +277,7 @@
 
 .Section4{
     display: flex;
-
+    align-items: center;
     height: 600px;
     background: #000000;
     color: white;
@@ -291,5 +291,45 @@
 .Section4Content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    height: 60%;
+}
+
+.Section4Content h1{
+    font-size: 40px;
+}
+
+.Section4Content h3{
+    font-size: 30px;
+    width: 100px;
+    border-bottom: darkred 3px solid;
+}
+
+.Description ul{
+    margin-left: 20px;
+}
+
+.Description h2{
+
+    margin-bottom: 10px;
+}
+
+.Section4ContentButton{
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+}
+
+.Section4ContentButton button{
+    height: 50px;
+    border: darkred 2px solid;
+    color: white;
+    background: black;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.Section4ContentButton button:hover{
+    background: darkred;
 }
